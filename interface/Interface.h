@@ -2,8 +2,8 @@
 #include <iostream>
 #include <string>
 #include <fstream>
-#include "../utils/FileUtils.h";
-#include "../utils/StringUtils.h";
+#include "../utils/FileUtils.h"
+#include "../utils/StringUtils.h"
 
 using namespace std;
 

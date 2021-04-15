@@ -12,7 +12,7 @@ inline vector<string> splitString(const char* stringToSplit, char splitChar = ' 
 	vector<string> splitData;
 	string stringPart = "";
 
-	int i = 0;
+	unsigned int i = 0;
 	while (i < strlen(stringToSplit)) {
 		
 		if (stringToSplit[i] != splitChar) {

@@ -1,4 +1,4 @@
-#include "Interface.h";
+#include "Interface.h"
 
 using namespace std;
 
@@ -152,11 +152,11 @@ void Interface::repackTextures() const {
 	string line;
 	string folderName;
 	bool isOffsetNeeded = false;
-	int nextFileOffset;
+	unsigned int nextFileOffset;
 
 	while (getline(origWixFile, line)) {
 		vector<string> values;
-		int offset;
+		unsigned int offset;
 		uintmax_t oldSize;
 		string fileName;
 
